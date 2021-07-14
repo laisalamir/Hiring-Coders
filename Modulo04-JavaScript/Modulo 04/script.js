@@ -29,9 +29,26 @@ const patter = "ECMAScript";
 console.log(age);
 
  hosting -- por debaixo dos panos.
-*/
 
-let resultado = fizzBuzz(30);
+class Person{
+    construtor(name){
+        this._name = name;
+    }
+
+    get name(){
+        return this._name;
+    }
+
+    set name(value) {
+        this._name= value;
+    }
+}
+
+let person = new Person('Laisa');
+person.name = 'Lalinha'
+console.log(person.name)
+
+let resultado = fizzBuzz(15);
 console.log(resultado);
 function fizzBuzz(entrada){
     if(typeof entrada !== 'number')
@@ -45,5 +62,31 @@ function fizzBuzz(entrada){
 
     return entrada;
 
+}*/
+/*
+
+let newStr = '';
+function reverseAString(str){
+    for(let i= str.length -1; i>=0; i--){
+        newStr += str[i];
+        console.log(newStr);
+    }
+    console.log(newStr);
 }
 
+let resultado = reverseAString('Hello Gama Academy');
+
+-----------------------------------------
+
+function convertToFahrenheit(value){
+    return value * 1.8 + 32
+}
+
+let result = convertToFahrenheit(1)
+console.log(`O valor em Fahrenheit é: ${result}`)*/
+
+let test = function(){
+    const name;
+    let fullName = name + "" santos"";
+    console.log(fullName);
+    }
