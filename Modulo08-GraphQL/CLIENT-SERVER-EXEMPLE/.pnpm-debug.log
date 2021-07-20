@@ -1,0 +1,100 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1,
+    "total": 3
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "@dev-laisa/server",
+      "version": "1.0.0",
+      "description": "",
+      "main": "src/main.js",
+      "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node -r esm ."
+      },
+      "author": "",
+      "license": "ISC",
+      "devDependencies": {
+        "esm": "^3.2.25"
+      },
+      "dependencies": {
+        "apollo-server-express": "^3.0.1"
+      }
+    },
+    "prefix": "C:\\Users\\lalin\\OneDrive\\Documentos\\Gama Academy\\Modulo08-GraphQL\\CLIENT-SERVER-EXEMPLE\\packages\\server"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": true,
+    "storeDir": "C:\\Users\\lalin\\.pnpm-store\\v3",
+    "virtualStoreDir": "C:\\Users\\lalin\\OneDrive\\Documentos\\Gama Academy\\Modulo08-GraphQL\\CLIENT-SERVER-EXEMPLE\\packages\\server\\node_modules\\.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "C:\\Users\\lalin\\OneDrive\\Documentos\\Gama Academy\\Modulo08-GraphQL\\CLIENT-SERVER-EXEMPLE\\packages\\server",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/esm/3.2.25",
+    "wanted": {
+      "dependentId": ".",
+      "name": "esm",
+      "rawSpec": "^3.2.25"
+    }
+  },
+  "5 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/apollo-server-express/3.0.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "apollo-server-express",
+      "rawSpec": "^3.0.1"
+    }
+  },
+  "6 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/esm/3.2.25",
+    "requester": "C:\\Users\\lalin\\OneDrive\\Documentos\\Gama Academy\\Modulo08-GraphQL\\CLIENT-SERVER-EXEMPLE\\packages\\server",
+    "status": "resolved"
+  },
+  "7 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/esm/3.2.25",
+    "requester": "C:\\Users\\lalin\\OneDrive\\Documentos\\Gama Academy\\Modulo08-GraphQL\\CLIENT-SERVER-EXEMPLE\\packages\\server",
+    "status": "found_in_store"
+  },
+  "8 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/apollo-server-express/3.0.1",
+    "requester": "C:\\Users\\lalin\\OneDrive\\Documentos\\Gama Academy\\Modulo08-GraphQL\\CLIENT-SERVER-EXEMPLE\\packages\\server",
+    "status": "resolved"
+  },
+  "9 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/apollo-server-express/3.0.1",
+    "requester": "C:\\Users\\lalin\\OneDrive\\Documentos\\Gama Academy\\Modulo08-GraphQL\\CLIENT-SERVER-EXEMPLE\\packages\\server",
+    "status": "found_in_store"
+  },
+  "10 info pnpm": {
+    "err": {
+      "name": "Error",
+      "message": "GET https://registry.npmjs.org/nodenoon: Not Found - 404",
+      "code": "ERR_PNPM_FETCH_404",
+      "stack": "Error: GET https://registry.npmjs.org/nodenoon: Not Found - 404\n    at RetryOperation._fn (C:\\Users\\lalin\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:79562:18)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"
+    }
+  },
+  "11 error pnpm": {
+    "code": "ERR_PNPM_FETCH_404",
+    "hint": "nodenoon is not in the npm registry, or you have no permission to fetch it.\n\nNo authorization header was set for the request.",
+    "request": {
+      "url": "https://registry.npmjs.org/nodenoon"
+    },
+    "response": {
+      "size": 0,
+      "timeout": 60000
+    },
+    "pkgName": "nodenoon",
+    "pkgsStack": [],
+    "prefix": "C:\\Users\\lalin\\OneDrive\\Documentos\\Gama Academy\\Modulo08-GraphQL\\CLIENT-SERVER-EXEMPLE\\packages\\server",
+    "err": {
+      "name": "Error",
+      "message": "GET https://registry.npmjs.org/nodenoon: Not Found - 404",
+      "code": "ERR_PNPM_FETCH_404",
+      "stack": "Error: GET https://registry.npmjs.org/nodenoon: Not Found - 404\n    at RetryOperation._fn (C:\\Users\\lalin\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:79562:18)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"
+    }
+  }
+}

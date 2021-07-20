@@ -1,15 +1,12 @@
-import React, { useState } from 'react';
-
-
+import React from 'react';
+import Routes from './routes';
+import './style.css';
 function App(props) {
-  const usuario = useState('Laisa')
   return (
-    <>
-      <input name="usuario" id="usuario" className="usuarioInput" placeholder="Usuario" />
-    </>
+    <Routes />
   );
 }
 
 export default App;
 
-// [usuario, setUsuario]
+
